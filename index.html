@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app="remyndrApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Remyndr App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <h3>My Remyndrs</h3>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="row" ng-view></div>
+    </div>
+
+    <nav class="navbar navbar-bottom navbar-fixed-bottom">
+      <div class="container">
+          <p><span class="glyphicon glyphicon-copyright-mark"></span>MDA 2016. All Rights Reserved.</p>
+      </div>
+    </nav>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-storage/dist/angular-storage.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="controllers/remyndrController.js"></script>
+  </body>
+</html>
